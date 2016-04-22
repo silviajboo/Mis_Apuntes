@@ -3,6 +3,8 @@
 1. Github
 2. Vim
 3. Gulp
+4. SASS
+5. Javascript
 
 
 # 1.Github
