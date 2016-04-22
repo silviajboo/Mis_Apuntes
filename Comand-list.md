@@ -80,13 +80,13 @@ _En la página de Github_
 
 1. Crear rama con nombre: `gh-pages`
 2. Subir: con el index en la raiz y demás carpetas
-3. Visitar página: http://nombre-de-usuario.github.io/nombre-del-repo
+3. Para visitar la página: `http://nombre-de-usuario.github.io/nombre-del-repo`
 
 ##1.6.Comandos de la consola
 
 * Ir a un directorio: `cd y nombre del directorio`
 * Paso atrás: `cd ..`
-* Ver items de directorio actual: `ls l`
+* Ver items de directorio actual: `ls -l`
 * Crear nuevo directorio `mkdir`
 * Crear un archivo: `touch nombredelarchivo.extensión`
 * Con las flechas arriba y abajo vemos el historial de las teclas que hemos ido usando
@@ -99,6 +99,7 @@ _vim para entrar en el html_
 * Habilitar los comandos `:`
 * Habilitar la edición del código: `cntrl + I`
 * Salir: `:q`
+* Forzar la salida: `:!q`
 * Guardar: `:w`
 * Guardar y salir `:wq`
 
@@ -107,7 +108,9 @@ _vim para entrar en el html_
 ## 3.1.Organización
 
 * Carpeta de trabajo: `src`
+* Carpeta de publicación: `dist`
 * Dentro de `src`: `img`, `scss`, `css` y `js`
+* Dentro de `dist`: `img`, `scss`, `css` y `js`
 * Instalaremos: `node_modules`
 * Tasks: `gulpfile.js`
 * Info del proyecto: `package.json`
