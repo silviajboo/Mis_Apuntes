@@ -1,7 +1,8 @@
-#ÍNDICE
+# 0.ÍNDICE
 
 1. Github
 2. Vim
+3. Gulp
 
 
 # 1.Github
@@ -76,11 +77,54 @@ _Para hacer atajos cuando usamos combinaciones de comandos_
 # 2.Vim
 _vim para entrar en el html_
 
-* : es para habilitar los comandos
-* cntrl + I es para editar el texto
-* :q para salir
-* :w para guardar
+* Habilitar los comandos `:`
+* Habilitar la edición del código: `cntrl + I`
+* Salir: `:q`
+* Guardar: `:w`
+* Guardar y salir `:wq`
 
+# 3.Gulp
+
+## 3.1.Organización
+
+* Carpeta de trabajo: `src`
+* Dentro de `src`: `img`, `scss`, `css` y `js`
+* Instalaremos: `node_modules`
+* Tasks: `gulpfile.js`
+* Info del proyecto: `package.json`
+
+## 3.2.Instalación
+
+_Por primera vez_
+
+1. Creamos package.json: `npm init`
+2. Para que nuestra terminal reconozca los comandos de gulp: `npm install --global gulp-cli`
+3. Instalamos node_modules: `npm i gulp --save-dev`
+4. Creamos y configuramos nuestro gulpfile.js añadiendo las funciones que necesitemos
+5. Instalamos cada función con su código correspondiente
+
+_En base al package.json_
+
+1. Creamos las carpetas
+2. Situamos el gulpfile.js y package.json en la raiz de nuestro proyecto
+3. Instalamos node_modules: `npm i gulp --save-dev`
+4. Instalar lo referenciado en .json: `npm i`
+
+# 4.SASS
+
+## 4.1.Imports
+
+1. Generamos el archivo central: main.scss _Donde irán los imports_
+2. Creamos los partial: _nombre.scss _Donde pondremos el trozo de código correspondiente, como por ejemplo, tipografía_
+3. En el main.scss pondremos los imports: `@import: 'nombredelpartial';`
+4. Ejecutamos el watch: `sass --watch scss/nombredelarchivo.scss:css/nombredelarchivo.css`
+5. Podemos comprimir el código resultante: `--style compressed`
+
+## 4.2.Variables
+
+1. Generamos un partial para las variables
+2. Creamos aquí las variables: `$color: #333333;`
+3. Aplicamos nuestra variable: `$color`
 
 # Bibliografía
 
