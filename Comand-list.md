@@ -87,7 +87,7 @@ _En la página de Github_
 * Ir a un directorio: `cd y nombre del directorio`
 * Paso atrás: `cd ..`
 * Ver items de directorio actual: `ls -l`
-* Crear nuevo directorio `mkdir`
+* Crear nuevo directorio `mkdir nombre`
 * Crear un archivo: `touch nombredelarchivo.extensión`
 * Con las flechas arriba y abajo vemos el historial de las teclas que hemos ido usando
 * Abrir programa o directorio: `open .`
