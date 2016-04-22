@@ -145,6 +145,14 @@ _En base al package.json_
 2. Creamos aquí las variables: `$color: #333333;`
 3. Aplicamos nuestra variable: `$color`
 
+## 4.3.Mixings
+
+1. Creamos un partial para los mixings
+2. Los ponemos así: `@mixin nombre {border: 1px;}`
+3. Para aplicarlo usamos: `@include nombre`
+
+_Podemos variar el mixing puntualmente_ `@include nombre (#666)`
+
 # Bibliografía
 
 * [Makigas](https://www.youtube.com/user/MakiGAS93)
