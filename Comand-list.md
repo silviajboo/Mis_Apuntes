@@ -64,7 +64,25 @@ _Para hacer atajos cuando usamos combinaciones de comandos_
 * Ver todos nuestros alias: `git config --global --get-regexp`
 * Eliminar un alias: `git config --global --unset alias.nombredelalias`
 
-##1.5.Comandos de la consola
+##1.5 Github pages
+
+###1.5.1 Usar las plantillas de github
+
+_En la página de Github_
+
+1. Ir al repo en cuestión, en master
+2. Ir a settings y bajar hasta la sección `GitHub Pages`
+3. Botón: Launch automatic page generator
+4. Introducir el texto con Markdown
+5. Elegir plantilla y seguir pasos
+
+###1.5.2 Subir mi proyecto web
+
+1. Crear rama con nombre: `gh-pages`
+2. Subir: con el index en la raiz y demás carpetas
+3. Visitar página: http://nombre-de-usuario.github.io/nombre-del-repo
+
+##1.6.Comandos de la consola
 
 * Ir a un directorio: `cd y nombre del directorio`
 * Paso atrás: `cd ..`
@@ -73,6 +91,7 @@ _Para hacer atajos cuando usamos combinaciones de comandos_
 * Crear un archivo: `touch nombredelarchivo.extensión`
 * Con las flechas arriba y abajo vemos el historial de las teclas que hemos ido usando
 * Abrir programa o directorio: `open .`
+
 
 # 2.Vim
 _vim para entrar en el html_
