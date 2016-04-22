@@ -159,7 +159,7 @@ _Podemos variar el mixing puntualmente_ `@include nombre (#666)`
 
 1. Insertar antes de `</body>` del html: 
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>`
-2. Poner debajo el link de la hoja js
+2. Poner debajo el link de la hoja js: `<script src="js/nombre.js"></script>`
 3. En la hoja js poner:
 
 ```$(document).ready(function(){
