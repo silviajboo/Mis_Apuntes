@@ -11,7 +11,7 @@
 
 * Nombre: `git config –global user.name “nombre”`
 * Email: `git config global user.email example@example.com`
-* Comprobar: `git config list`
+* Comprobar: `git config --list`
 * Añadir origen: `git remote add origin https://github.com/example.git`
 
 ## 1.2.Procedimiento
