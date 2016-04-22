@@ -157,7 +157,8 @@ _Podemos variar el mixing puntualmente_ `@include nombre (#666)`
 
 ## 5.1.Smooth scrolling
 
-1. Insertar antes de `</body>` del html: `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>`
+1. Insertar antes de `</body>` del html: 
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>`
 2. Poner debajo el link de la hoja js
 3. En la hoja js poner:
 
