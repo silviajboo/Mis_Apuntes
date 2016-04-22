@@ -153,6 +153,29 @@ _En base al package.json_
 
 _Podemos variar el mixing puntualmente_ `@include nombre (#666)`
 
+# 5.Javascript
+
+## 5.1.Smooth scrolling
+
+1. Insertar antes de `</body>` del html: `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>`
+2. Poner debajo el link de la hoja js
+3. En la hoja js poner:
+
+```$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+	    var target = this.hash;
+	    var $target = $(target);
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+```
+
+
 # Bibliografía
 
 * [Makigas](https://www.youtube.com/user/MakiGAS93)
