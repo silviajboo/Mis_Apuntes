@@ -134,7 +134,7 @@ _En base al package.json_
 ## 4.1.Imports
 
 1. Generamos el archivo central: main.scss _Donde irán los imports_
-2. Creamos los partial: _nombre.scss _Donde pondremos el trozo de código correspondiente, como por ejemplo, tipografía_
+2. Creamos los partial: `_nombre.scss`
 3. En el main.scss pondremos los imports: `@import: 'nombredelpartial';`
 4. Ejecutamos el watch: `sass --watch scss/nombredelarchivo.scss:css/nombredelarchivo.css`
 5. Podemos comprimir el código resultante: `--style compressed`
@@ -156,3 +156,4 @@ _Podemos variar el mixing puntualmente_ `@include nombre (#666)`
 # Bibliografía
 
 * [Makigas](https://www.youtube.com/user/MakiGAS93)
+* [gh-pages](https://www.youtube.com/watch?v=I-d9_l7myXw)
