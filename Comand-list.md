@@ -198,7 +198,7 @@ $('.toggle').click(function() {
 });
 ```
 
-2. Necesitamos lincar el jquery.js de mike (ya pondré el enlace) antes del </body> y del link de nuestro .js
+2. Necesitamos lincar el jquery.js de mike (ya pondré el enlace) antes del `</body>` y del link de nuestro .js
 3. Esto debe ir en nuestro style.css:
 
 ```
