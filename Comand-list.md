@@ -71,7 +71,7 @@ _Para hacer atajos cuando usamos combinaciones de comandos_
 
 ###1.5.1 Usar las plantillas de github
 
-_En la página de Github_
+_En la página de Github, usando sus plantillas con markdown_
 
 1. Ir al repo en cuestión, en master
 2. Ir a settings y bajar hasta la sección `GitHub Pages`
@@ -81,8 +81,10 @@ _En la página de Github_
 
 ###1.5.2 Subir mi proyecto web
 
+_Subir archivos a gh-pages_
+
 1. Crear rama con nombre: `gh-pages`
-2. Subir: con el index en la raiz y demás carpetas
+2. Push: con el index en la raiz y demás carpetas
 3. Para visitar la página: `http://nombre-de-usuario.github.io/nombre-del-repo`
 
 ##1.6.Comandos de la consola
