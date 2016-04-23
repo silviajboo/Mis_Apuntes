@@ -32,7 +32,8 @@
 * Cambiar de rama: `git checkout nombre-de-la-otra-rama`
 * Crear y cambiar de rama simultáneamente: `git checkout -b nombre-de-la-rama`
 * Cambiar el nombre de la rama: `git branch -m nombre-antiguo nombre-nuevo`
-* Eliminar rama: `git branch -d nombre-de-la-rama`
+* Eliminar rama local: `git branch -d nombre-de-la-rama`
+* Eliminar rama remota: `git push origin --delete nombre_rama`
 * Forzar eliminar rama: `git branch -D nombre-de-la-rama`
 * Listado de todas las cosas que podemos hacer: `git branch -h`
 
@@ -181,6 +182,38 @@ _Podemos variar el mixing puntualmente_ `@include nombre (#666)`
 });
 ```
 
+## 5.1.Acordeón
+
+1. Poner esto en la hoja js:
+
+```
+$('.toggle').click(function() {
+    if ($(this).siblings().is(':visible')) {
+        $(this).siblings().slideUp();
+        $(this).siblings().find('.inner:visible').slideUp();
+    } else {
+        $(this).parent().parent().find('inner:visible').slideUp();
+        $(this).siblings().slideToggle();
+    };
+});
+```
+
+2. Necesitamos lincar el jquery.js de mike (ya pondré el enlace) antes del </body> y del link de nuestro .js
+3. Esto debe ir en nuestro style.css:
+
+```
+ul .inner {
+  overflow: hidden;
+  display: none;
+}
+ul .inner.show {
+  display: block;
+}
+ul li a.toggle {
+  width: 100%;
+  display: block;
+  transition: background .3s ease;
+```
 
 # Bibliografía
 
