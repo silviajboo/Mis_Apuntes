@@ -222,3 +222,4 @@ ul li a.toggle {
 * [Makigas](https://www.youtube.com/user/MakiGAS93)
 * [gh-pages](https://www.youtube.com/watch?v=I-d9_l7myXw)
 * [Eliminar ramas](http://vensign.com/como-borrar-una-rama-local-y-remota-en-git/)
+* [Animaciones en CSS3](http://www.csslab.cl/2011/06/21/animaciones-css3-avanzadas/)
