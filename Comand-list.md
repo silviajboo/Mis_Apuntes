@@ -184,7 +184,7 @@ _Podemos variar el mixing puntualmente_ `@include nombre (#666)`
 });
 ```
 
-## 5.1.Acordeón
+## 5.2.Acordeón
 
 1. Poner esto en la hoja js:
 
@@ -217,9 +217,45 @@ ul li a.toggle {
   transition: background .3s ease;
 ```
 
+## 5.3.Botón "ver más"
+
+1. Creamos 3 clases: la primera para estilar el botón, la segunda para añadir el texto al botón y la tercera para hacer el cambio.
+
+```
+.port-btn-seemore {
+    margin: 0px 0px 80px;
+    padding: 10px 40px;
+}
+
+.port-btn-seemore:before {
+    content: "Ver más";
+}
+
+.port-btn-seeless:before {
+    content: "Ver menos";
+    background-color: greenyellow;
+}
+```
+2. Añadimos un id al botón `id="seemore"` en el HTML
+3. En la hoja js añadimos este código
+
+```
+$(document).on("ready", main);
+
+function main(){
+    $("#seemore").on("click", cambiarTexto);
+}
+
+function cambiarTexto(){
+    $(this).toggleClass("port-btn-seeless");
+}
+
+```
+
 # Bibliografía
 
 * [Makigas](https://www.youtube.com/user/MakiGAS93)
 * [gh-pages](https://www.youtube.com/watch?v=I-d9_l7myXw)
 * [Eliminar ramas](http://vensign.com/como-borrar-una-rama-local-y-remota-en-git/)
 * [Animaciones en CSS3](http://www.csslab.cl/2011/06/21/animaciones-css3-avanzadas/)
+* [Cambiar estilos con toggle](https://www.youtube.com/watch?v=HTHJbbRVdSU)
