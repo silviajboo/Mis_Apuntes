@@ -97,6 +97,15 @@ _Subir archivos a gh-pages_
 * Con las flechas arriba y abajo vemos el historial de las teclas que hemos ido usando
 * Abrir programa o directorio: `open .`
 
+##1.7.Deshaciendo cosas
+
+* Para deshacer el git add: `git reset HEAD <archivo>...`
+* Eliminar archivo en local y remoto: `git rm miarchivo.php` y comitear
+* Eliminar una carpeta en local y remoto: `git rm -r micarpeta`
+* Eliminar rama local: `git branch -d nombre-de-la-rama`
+* Eliminar rama remota: `git push origin --delete nombre_rama`
+* Forzar eliminar rama: `git branch -D nombre-de-la-rama`
+
 
 # 2.Vim
 _vim para entrar en el html_
