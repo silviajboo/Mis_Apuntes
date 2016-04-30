@@ -5,6 +5,6 @@
 * Apuntes de protocolos y comandos: `Comand-list`
 * Recopilatorio de funciones: `js-trikcs`
 
-00 Plantilla entorno
-01 Resourses
+*00 Plantilla entorno
+*01 Resourses
 
