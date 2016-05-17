@@ -100,6 +100,7 @@ _Subir archivos a gh-pages_
 ##1.7.Deshaciendo cosas
 
 * Para deshacer el git add: `git reset HEAD <archivo>...`
+* Para deshacer el git add en todos los archivos: `git reset HEAD .`
 * Eliminar archivo en local y remoto: `git rm miarchivo.php` y comitear
 * Eliminar una carpeta en local y remoto: `git rm -r micarpeta`
 * Eliminar rama local: `git branch -d nombre-de-la-rama`
@@ -291,3 +292,7 @@ function second(){
 * [Usando animate.css combinado con jq](http://www.csslab.cl/2011/06/21/animaciones-css3-avanzadas/)
 * [GitHub animate.css combinado con jq](https://github.com/daneden/animate.css)
 * [Cambiar estilos con toggle](https://www.youtube.com/watch?v=HTHJbbRVdSU)
+
+_Herramientas web_
+
+* [CSS Arrow Please](http://www.cssarrowplease.com/)
