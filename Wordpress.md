@@ -48,7 +48,7 @@ Podemos añadir también una parte de un template: ``get_template_part()_``
 
 1. En la carpeta del template, tenemos: 
 * **Header.php:** donde podemos modificar el html del heade. Aquí podemos cambiar la url de la home, entre otras cosas.
-* Index.php: modificamos la página de home. Aquí nos llama el header del php para que se muestre. 
+* **Index.php:** modificamos la página de home. Aquí nos llama el header del php para que se muestre. 
 
 2. CSS
 _Solo hay un archivo css, y no está en la carpeta de css._
@@ -60,6 +60,7 @@ _Solo hay un archivo css, y no está en la carpeta de css._
 * Hay plugings para esto. Igualmente el HTML ha de estar bien estructurado y el contido debe aportar valor.
 
 4. Javascript y Jq
+Se puede meter una hoja de js.
 
 
 # Bibliografía
