@@ -130,7 +130,7 @@ _vim para entrar en el html_
 * Tasks: `gulpfile.js`
 * Info del proyecto: `package.json`
 
-## 3.2.Instalación Gulp
+## 3.2.Instalación de Gulp
 
 1. Instalar por terminal (Linux/Mac) o descargar el instalador (Windows) descargando el ejecutable en [nodejs.org](https://nodejs.org)
 2. A través de la termina comprobar qué versión tenemos de node.js tenemos instalado. ``node -v``. _Podemos usar el la termianl de [GitBash](https://git-scm.com/)_
