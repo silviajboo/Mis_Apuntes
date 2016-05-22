@@ -130,7 +130,14 @@ _vim para entrar en el html_
 * Tasks: `gulpfile.js`
 * Info del proyecto: `package.json`
 
-## 3.2.Instalación
+## 3.2.Instalación Gulp
+
+1. Instalar por terminal (Linux/Mac) o descargar el instalador (Windows) descargando el ejecutable en [nodejs.org](https://nodejs.org)
+2. A través de la termina comprobar qué versión tenemos de node.js tenemos instalado. ```node -v``. _Podemos usar el la termianl de [GitBash](https://git-scm.com/)_
+3. Ahora instalamos gulp ``npm install -g gulp`` _Para Mac o Linux ``npm sudo install -g gulp``_
+4. Para asegurarnos de que se ha instalado correctamente ``gulp -v``
+
+## 3.3.Instalación de entorno
 
 _Por primera vez_
 
@@ -149,7 +156,13 @@ _En base al package.json_
 
 # 4.SASS
 
-## 4.1.Imports
+## 4.1.Instalación
+
+1. En Windows hay que descargar [Ruby](http://rubyinstaller.org/) e instalarlo.
+2. Escribir en la consola ``gem install sass``
+3. Istalar Compass ``gem install compass`` que nos brinda código CSS común para nuestros proyectos.
+
+## 4.2.Imports
 
 1. Generamos el archivo central: main.scss _Donde irán los imports_
 2. Creamos los partial: `_nombre.scss`
@@ -157,13 +170,13 @@ _En base al package.json_
 4. Ejecutamos el watch: `sass --watch scss/nombredelarchivo.scss:css/nombredelarchivo.css`
 5. Podemos comprimir el código resultante: `--style compressed`
 
-## 4.2.Variables
+## 4.3.Variables
 
 1. Generamos un partial para las variables
 2. Creamos aquí las variables: `$color: #333333;`
 3. Aplicamos nuestra variable: `$color`
 
-## 4.3.Mixings
+## 4.4.Mixings
 
 1. Creamos un partial para los mixings
 2. Los ponemos así: `@mixin nombre {border: 1px;}`
