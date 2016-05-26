@@ -44,13 +44,13 @@ _Cuando no hay cambios es master_
 1. Ir a master: `git checkout master`
 2. Mergear la rama: `git merge nombre-de-la-rama`
 
-_Cuando si hay cambios en master pero no hay conflicto_
+_Cuando si hay cambios en master pero no hay conflicto despues de intentar mergear_
 
 1. Ir a master: `git checkout master`
 2. Mergear la rama: `git merge nombre-de-la-rama
 3. Hacemos un commit: `git commit -m “mensaje-descriptivo”` _Nos pide hacer un commit debido a que junta los cambios de ambas ramas en un nuevo commit_
 
-_Qué hacer cuando hay conflicto simple_
+_Qué hacer cuando hay conflicto chungo despues de intentar mergear_
 
 1. Comprobar qué conflictos hay: `git status`
 2. Pasamos a nuestro editor y vemos esta estructura nuestro código dividido por símbolos de mayor y menos que, y unas barras.
