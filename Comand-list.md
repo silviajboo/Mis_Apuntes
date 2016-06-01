@@ -158,7 +158,7 @@ _En base al package.json_
 
 ## 4.1.Instalación
 
-1. En Windows hay que descargar [Ruby](http://rubyinstaller.org/) e instalarlo.
+1. En Windows hay que descargar [Ruby](http://rubyinstaller.org/), instalarlo y reiniciar el ordenador.
 2. Escribir en la consola ``gem install sass``
 3. Istalar Compass ``gem install compass`` que nos brinda código CSS común para nuestros proyectos.
 
@@ -223,7 +223,7 @@ $('.toggle').click(function() {
 });
 ```
 
-2. Necesitamos lincar el jquery.js de mike (ya pondré el enlace) antes del `</body>` y del link de nuestro .js
+2. Necesitamos lincar el jquery.js ```<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>``` antes del `</body>` y del link de nuestro .js
 3. Esto debe ir en nuestro style.css:
 
 ```
@@ -238,6 +238,16 @@ ul li a.toggle {
   width: 100%;
   display: block;
   transition: background .3s ease;
+```
+4. La estructura del HTML debe ser así:
+
+```
+<ul class="accordion">
+        <ul class="inner" id="container">
+            <a href="#p1"><li class="accordion-li">Opción1</li></a>
+            <a href="#p2"><li class="accordion-li">Opción2</li></a>
+            <a href="#p3"><li class="accordion-li">Opción3</li></a>
+        </ul>
 ```
 
 ## 5.3.Botón "ver más"
