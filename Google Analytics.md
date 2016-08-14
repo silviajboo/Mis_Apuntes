@@ -100,9 +100,9 @@ Detalle de dónde viene el tráfico.
 
 3.1.Comportamiento > Visión general
 
-*Todas las páginas: Ver cuales son las páginas que ven las sesiones. Esta es la más interesante porque tenemos una visión general 
+* Todas las páginas: Ver cuales son las páginas que ven las sesiones. Esta es la más interesante porque tenemos una visión general 
 del comportamiento de los usuarios en el sitio.
-*Desglose de contenidos: Cuáles son las más visitas. Puedes categorizarlas, por si son búsquedas, etc.
+* Desglose de contenidos: Cuáles son las más visitas. Puedes categorizarlas, por si son búsquedas, etc.
 
 #Bibliografía
 
