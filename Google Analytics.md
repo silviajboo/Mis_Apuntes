@@ -5,8 +5,9 @@
 # ÍNDICE
 
 1. Instalación
-2. Qué pesatañas mirar, cómo hacer el seguimiento
-3. Bibliografía
+2. Qué pesatañas mirar, cómo hacer el seguimiento general
+3. Qué pesatañas mirar, cómo hacer el seguimiento de los objetivos
+4. Bibliografía
 
 ###Instalación
 
@@ -26,7 +27,34 @@ al instante. Lo recomendable es esperar unas semanas o unos meses para hacer el 
 
 _Instalar Objetivos_
 
-##Qué pesatañas mirar, cómo hacer el seguimiento
+1. Ir a administrador > todos los datos del sitio web > objetivos.
+2. + Nuevo objetivo.
+3. En configuración del objetivo elegir **Personalizado**.
+4. Poner nombre al objetivo (Ideal usar nombre de la acción, como formulario enviado, etc.).
+5. Elegir tipo de objetivo:
+	* Destino: Carga de una ubicación específica. Página web o pantalla de aplicación del tipo ¡Gracias por registrarse!
+	* Duración: Sesiones que duran un tiempo determinado o más.
+	* Páginas/pantallas por sesión: El usuario ve un número concreto de páginas o de pantallas.
+	* Evento: Activación de una acción definida como evento. Por ejemplo, una recomendación social, reproducción de vídeo o clic en anuncio.
+6. Establecer la información del objetivo:
+	* Destino: Igual a (y url de la página a partir del primer /, https://www.dominio.com se suprime). Empieza por (todas las páginas que empiecen por
+	alguna palabra clave). Y Expresión regular (Todas las páginas que tengan una expresión que se repita, por ejemplo todas las páginas de portfolio
+	contienen la la expresión **port-** + el nombre del proyecto. O por ejemplo tadas aquellas que lleven un símbolo, como $ % &, etc.).
+	* Duración: Establecer el tiempo mínimo que debe pasar el usuario para que se cumpla el objetivo.
+	* Páginas/pantallas por sesión: Establecer el número de páginas mínimas que debe ver el usuario para que se complete este objetivo.
+	* Evento: Poner tres etiquetas en el html de la página en, por ejemplo, un botón. Éstos serán categoría, acción y etiqueta.
+	En el **html** hay que poner este script: ``ga('send', 'event', 'category', 'action', 'label');``. Los dos primeros campos 'send' y 'event' se dejan igual.
+	A los otros tres les podemos asignar un valor, por ejemplo, puede quedar así: ``ga('send', 'event', 'contacto', 'enviar', 'formulario');``
+	Para un clic de un enlace, después de por ejemplo ``class="nommbre-de-la-clase"`` habría que poner ``onClick="ga('send', 'event', 'category', 'action', 'label');"``. También se puede hacer con 
+	un hover ``onmouseover="ga('send', 'event', 'category', 'action', 'label');"``
+7. Establecer un valor: Cada vez que un usuario completa un objetivo, este importe se registra y se suma al resto para incluirse en los informes como valor del objetivo.
+8. Enbudo de conversión: Son los pasos que realizan nuestros usuarios para llegar al objetivo. Esto es ideal cuando se sigue un procedimiento de pasos, como
+una compra o un registro y así saber dónde existe el abandono. **Obligatorio significa si que para que se cumpla el objetivo es obligatorio que el usuario pase
+por cada una de las páginas que has detellado.**
+9. Para saber cómo ver los reportes y así poder comprobar que los objetivos funcionan ver sección **"Qué pestañas mirar, cómo hacer el seguimiento de los objetivos"**
+de este documento.
+
+##Qué pesatañas mirar, cómo hacer el seguimiento general
 
 1. Audiencia > General: En el inicio de la pestaña de informes lo primero que nos sale es un gráfico llamado visión general.
 Nos pone _Sesiones_, que son las visitas. Si subimos arriba del todo de la página, parte derecha se puede elegir
@@ -98,13 +126,29 @@ Detalle de dónde viene el tráfico.
 
 * Referencias: Aquí se pueden ver las urls que están generando tráfico al sitio.
 
-3.1.Comportamiento > Visión general
+3.1. Comportamiento > Visión general
 
 * Todas las páginas: Ver cuales son las páginas que ven las sesiones. Esta es la más interesante porque tenemos una visión general 
 del comportamiento de los usuarios en el sitio.
 * Desglose de contenidos: Cuáles son las más visitas. Puedes categorizarlas, por si son búsquedas, etc.
 
+##Qué pesatañas mirar, cómo hacer el seguimiento de los objetivos
+
+1. Eventos: Éstos se pueden ver en la pestaña de informes > tiempo real > eventos.
+2. Demás objetivos: ir a informes > conversiones > objetivos > visión general.
+	* En el menú desplegable, situado en la parte superior izquierda, podemos ver los objetivos que se han cumplido.
+	* En visión general se pueden hacer las comparaciones y los porcentajes de objetivos cumplidos, etc.
+	* Los porcentajes de abandono tienen que ver con los **Enbudos de conversión**.
+	* Ubicación de consecuencia de objetivos: muestra dónde se han cumplido los objetivos.
+	* Fuente/medio: De donde han venido las visitas que han cumplido los objetivos.
+	* URLs objetivos: Podemos ver con más detalle la procedencia de quienes cumplen los objetivos y además ver el impacto monetario si
+	hemos establecido un valor a la hora de crear el objetivo.
+
 #Bibliografía
 
 * [Instalar Google Analytics](https://www.youtube.com/watch?v=0EQ9TcVqmTw)
 * [Tutorial: Qué mirar en Google Analytics](https://www.youtube.com/watch?v=PCxoic2cvVI)
+* [Cómo poner los eventos en html](https://www.youtube.com/watch?v=1Qg88Dk5gak)
+* [Cómo crear los objetivos en Google Analytics](https://www.youtube.com/watch?v=ptEcdWn-EfU)
+* [Definición del los distintos tipos de objetivos](https://support.google.com/analytics/answer/1012040?hl=es#goal_types)
+* [Interpretar los informes de los objetivos](https://www.youtube.com/watch?v=nFuo5nRpLnQ)
