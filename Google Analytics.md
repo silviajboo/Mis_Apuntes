@@ -106,5 +106,5 @@ del comportamiento de los usuarios en el sitio.
 
 #Bibliografía
 
-* [Instalar Google Analytics]("https://www.youtube.com/watch?v=0EQ9TcVqmTw")
-* [Tutorial: Qué mirar en Google Analytics]("https://www.youtube.com/watch?v=PCxoic2cvVI")
+* [Instalar Google Analytics](https://www.youtube.com/watch?v=0EQ9TcVqmTw)
+* [Tutorial: Qué mirar en Google Analytics](https://www.youtube.com/watch?v=PCxoic2cvVI)
