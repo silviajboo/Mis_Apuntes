@@ -1,4 +1,4 @@
-# Proyectos realizados por Juanlu Glez
+﻿# Proyectos realizados por Juanlu Glez
 
 ¡Hola! Este es mi repo de apuntes de las cosillas que se. Principalmente es para uso personal, pero si neceistas extraer algo de los archivos ``.md`` siéntete libre de explorar.
 
@@ -11,9 +11,10 @@ Cualquier contribución, corrección o comentario soy todo oídos.
 
 ## Índice
 
-* Apuntes de protocolos y comandos: `Comand-list`
-* Recopilatorio de funciones: `js-trikcs`
-* Apuntes de uso de ``Wordpress``
+* Apuntes de protocolos y comandos: `Comand-list.md`
+* Recopilatorio de funciones: ``js-trikcs.md``
+* Apuntes de uso de ``Wordpress.md``
+* Usar Google Analytics ``Google Analytics.md``
 
 * 00 Plantilla entorno
 * 01 Resourses
