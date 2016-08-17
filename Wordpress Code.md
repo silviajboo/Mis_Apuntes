@@ -1,4 +1,4 @@
-# WORDPRESS Guía
+﻿# WORDPRESS Guía
 
 ## Para templates
 
@@ -27,14 +27,14 @@ El primero es el proyecto (el zip que te descargas) y el segundo te ofrece un ho
 1. Descargar zip de la web de Wordpress
 2. Para instalar un tema nuevo creamos una carpeta en wp-content > Themes (Dentro hay un screenshot.png para hacer un preview de la web)
 3. En la raiz de la carpeta de mi hosting, copiamos la carpeta de wp en la raiz.
-3.1. Lo primero que busca al cargar la web, el servidor nos muestra el index.php.
-3.2. Seleccionamos el idioma
-3.3. Luego nos pide información: nombre de la base de datos, usuario, etc.
-3.4. Ejecutamos
-4.5. Nos pedirá más información para la base de datos
-3.6. La opción de disuadir robots es para que google no nos encuentre
-4. Nos lleva a la página de login de Wordpress (dominio/wp.admin)
-5. Accedemos al panel de control
+	3.1 Lo primero que busca al cargar la web, el servidor nos muestra el index.php.
+	3.2 Seleccionamos el idioma
+	3.3 Luego nos pide información: nombre de la base de datos, usuario, etc.
+	3.4 Ejecutamos
+	4.5 Nos pedirá más información para la base de datos
+	3.6 La opción de disuadir robots es para que google no nos encuentre
+	4. Nos lleva a la página de login de Wordpress (dominio/wp.admin)
+	5. Accedemos al panel de control
 * Escritorio: novedades, actualizar, etc.
 * Entradas: Crear posts
 * Apariencia: temas (Elegir o añadir nuevo)
